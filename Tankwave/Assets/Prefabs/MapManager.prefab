@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &737288594639896684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737288594639896682}
+  - component: {fileID: 1694375644}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737288594639896682
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737288594639896684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1694375644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737288594639896684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5e8ecdd5153d214891720d0edac352f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  woodPrefab: {fileID: 7594807343602714917, guid: 6b10fcff71a67aa4280f40b93df6ecb0, type: 3}
+  steelPrefab: {fileID: 92182940334891335, guid: 880dd796a913e1a49aabb98d30fb0cc9, type: 3}
+  spacePrefab: {fileID: 8802164979750416170, guid: 0b668f0e1d123624297792e65dad9bbe, type: 3}
+  tankPrefab: {fileID: 6742756305122309462, guid: dee04983c36b7a44497b522c6ee8bfe9, type: 3}
+  enemyPrefab: {fileID: 6742756305122309462, guid: 0868094ca52c8de49a998025bf07c1dc, type: 3}
+  basePrefab: {fileID: 2582234227018438566, guid: 62f6bc25540b98d489c508d355e21985, type: 3}
+  powerUpPrefab: {fileID: 5930246351686083288, guid: 78e7321e59d28bb4a93de8ca0ae9ba21, type: 3}
+  cellSize: 1
